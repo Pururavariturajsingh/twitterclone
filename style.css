@@ -8,7 +8,7 @@
     background-color: rgb(247, 247, 247);
 }
 .mainContainer{
-    display: flex;flex: 100%;justify-content: center;
+    display: flex;flex: 100%;justify-content: center;padding: 5px;
 
 }
 .mainContainerChild1{width: fit-content;height: 97vh;position: sticky;top: 0px;
@@ -201,8 +201,8 @@ display: flex;justify-content:flex-end;height: 90vh;
         margin-top: 39px;
     }
 }
-@media(max-width:500px) {
-    .tweetsMainContaint video{
-    margin-top: -43px;
-    }
+.searchBox span{
+    height: 50px;
+    position: sticky;top: 0px;
+    
 }
